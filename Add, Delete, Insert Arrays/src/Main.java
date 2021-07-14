@@ -21,7 +21,7 @@ public class Main {
             d = new int[a.length + 1];
             System.arraycopy(a, 0, d, 0, c);
             d[c] = b;
-            System.arraycopy(a, c, d, c + 1, d.length - (c + 1));
+            System.arraycopy(a, c, d, c + 1, a.length - c);
         } else {
             d = new int[c + 1];
             System.arraycopy(a, 0, d, 0, a.length);
