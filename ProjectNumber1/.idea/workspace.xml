@@ -106,7 +106,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.TestClass">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ProjectNumber1" />
@@ -181,16 +181,16 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.TestClass.testTwo" />
       <item itemvalue="JUnit.TestClass.testOne" />
       <item itemvalue="JUnit.TestClass" />
       <item itemvalue="JUnit.TestClass.testThree" />
-      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestClass" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestClass" />
         <item itemvalue="JUnit.TestClass.testThree" />
         <item itemvalue="JUnit.TestClass.testTwo" />
         <item itemvalue="JUnit.TestClass.testOne" />

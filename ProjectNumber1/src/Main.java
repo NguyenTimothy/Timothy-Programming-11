@@ -68,6 +68,6 @@ public class Main {
          */
         String s;
         s = "bobibobafghjlpbob";
-        System.out.println(problemOne(s) + "\n" + problemTwo(s) + "\n" + problemThree(s));
+        System.out.println("Expected:\n5\n3\nafghjlp\nResults:\n" + problemOne(s) + "\n" + problemTwo(s) + "\n" + problemThree(s));
     }
 }
