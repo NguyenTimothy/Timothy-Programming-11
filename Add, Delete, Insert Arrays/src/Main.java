@@ -2,8 +2,7 @@ public class Main {
     static int[] addArray(int[] array, int integer){
         // Adds an integer to the end of an array of integers.
         int[] newArray = new int[array.length + 1];
-        for (int i = 0; i < array.length; i++)
-            newArray[i] = array[i];
+        System.arraycopy(array, 0, newArray, 0, array.length);
         newArray[array.length] = integer;
         return newArray;
     }
@@ -11,9 +10,7 @@ public class Main {
     static int[] delArray(int[] array){
         // Deletes the last integer in an array of integers.
         int[] newArray = new int[array.length - 1];
-        for (int i = 0; i < newArray.length; i++){
-            newArray[i] = array[i];
-        }
+        System.arraycopy(array, 0, newArray, 0, newArray.length);
         return newArray;
     }
 
@@ -22,17 +19,11 @@ public class Main {
         int[] newArray;
         if (index <= array.length) {
             newArray = new int[array.length + 1];
-            for (int i = 0; i < index; i++){
-                newArray[i] = array[i];
-            }
-            for (int i = index + 1; i < array.length; i++){
-                newArray[i] = array[i];
-            }
+            System.arraycopy(array, 0, newArray, 0, index);
+            System.arraycopy(array, index, newArray, index + 1, array.length - index);
         } else {
             newArray = new int[index + 1];
-            for (int i = 0; i < array.length; i++){
-                newArray[i] = array[i];
-            }
+            System.arraycopy(array, 0, newArray, 0, array.length);
         }
         newArray[index] = integer;
         return newArray;
