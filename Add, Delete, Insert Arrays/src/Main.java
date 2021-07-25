@@ -36,7 +36,7 @@ public class Main {
         for (int i: addEg){
             System.out.println(i);
         }
-        System.out.println("");
+        System.out.println();
 
         // Example of the delArray method
         int[] delEg = {20, 21, 22, 23, 24, 25};
@@ -44,7 +44,7 @@ public class Main {
         for (int i: delEg){
             System.out.println(i);
         }
-        System.out.println("");
+        System.out.println();
 
         // Example of the insertArray method
         int[] insertEg = {30, 31, 32, 34, 35, 36};
