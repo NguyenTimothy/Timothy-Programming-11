@@ -8,7 +8,12 @@ public class Teacher {
             lastName,
             subject;
 
-    // Class uses default constructor
+    // Constructor sets the instance variables using the parameters given
+    public Teacher(String firstName, String lastName, String subject) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.subject = subject;
+    }
 
     // Prints the return value when object is printed
 

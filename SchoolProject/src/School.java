@@ -26,12 +26,12 @@ public class School {
 
     // The next three methods with the prefix 'add' adds a new element to their respective ArrayLists.
 
-    public void addTeacher() {
-        teachers.add(new Teacher());
+    public void addTeacher(String firstName, String lastName, String subject) {
+        teachers.add(new Teacher(firstName, lastName, subject));
     }
 
-    public void addStudent() {
-        students.add(new Student());
+    public void addStudent(String firstName, String lastName, int grade) {
+        students.add(new Student(firstName, lastName, grade));
     }
 
     public void addCourse(String course) {

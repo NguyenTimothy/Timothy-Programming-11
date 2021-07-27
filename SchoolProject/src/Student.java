@@ -10,10 +10,14 @@ public class Student {
             idNum;
     static int studentNumber;
 
-    // Constructor gives the student a unique student number starting at zero
+    // Constructor sets the instance variables using the parameters given
+    // Gives the student a unique student number starting at zero
     // Student number increases by one for every new student
 
-    public Student() {
+    public Student(String firstName, String lastName, int grade) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.grade = grade;
         idNum = studentNumber;
         studentNumber++;
     }
